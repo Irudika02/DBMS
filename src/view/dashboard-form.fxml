@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="dashboard" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardFormController">
+   <children>
+      <Button layoutX="29.0" layoutY="145.0" mnemonicParsing="false" onAction="#addOnAction" prefHeight="35.0" prefWidth="154.0" text="Add Student" />
+      <Button layoutX="220.0" layoutY="145.0" mnemonicParsing="false" onAction="#deleteOnAction" prefHeight="35.0" prefWidth="154.0" text="Delete Student" />
+      <Button layoutX="418.0" layoutY="145.0" mnemonicParsing="false" onAction="#updateOnAction" prefHeight="35.0" prefWidth="154.0" text="Update Student" />
+      <Button layoutX="223.0" layoutY="226.0" mnemonicParsing="false" onAction="#loadAllOnAction" prefHeight="35.0" prefWidth="154.0" text="Load All Student" />
+   </children>
+</AnchorPane>
